@@ -135,7 +135,7 @@ const LotteryDraw = () => {
                     <div>
                         Raffle Entrance Fee: {ethers.utils.formatUnits(entranceFee, "ether")}ETH
                     </div>
-                    <div>NumberOfPlayers: {NumberOfPlayers}</div>
+                    <div>Number Of Players: {NumberOfPlayers}</div>
                     <div>Winner: {Winner}</div>
                 </>
             ) : (
